@@ -18,7 +18,6 @@ namespace SeedsClassificationApp.Classification
 
             int axe = profondeur % 7;
 
-            // Trier selon l'axe choisi
             points = TrierSelonAxe(points, axe);
 
             int medianIndex = points.Count / 2;
@@ -87,7 +86,6 @@ namespace SeedsClassificationApp.Classification
 
             ParcoursArbre(Root, cible, distance, liste);
 
-            // Trier par distance (tri insertion maison)
             for (int i = 1; i < liste.Count; i++)
             {
                 var cle = liste[i];

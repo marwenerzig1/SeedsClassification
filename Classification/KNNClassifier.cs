@@ -29,7 +29,6 @@ namespace SeedsClassificationApp.Classification
                 compteur[voisin.ClasseReelle]++;
             }
 
-            // Vote majoritaire
             TypeBle classePredite = compteur
                 .OrderByDescending(x => x.Value)
                 .First()

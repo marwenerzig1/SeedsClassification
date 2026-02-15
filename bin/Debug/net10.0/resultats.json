@@ -1,7 +1,7 @@
 {
   "K": 3,
   "DistanceType": "DistanceEuclidienne",
-  "DateExecution": "2026-02-10T09:00:01.2783226-05:00",
+  "DateExecution": "2026-02-14T19:38:42.6552447-05:00",
   "TrainingSize": 139,
   "TestSize": 71,
   "Accuracy": 0.9154929577464789,

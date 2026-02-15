@@ -25,7 +25,6 @@ namespace SeedsClassificationApp.Data
 
                 while (csv.Read())
                 {
-                    // Lire la classe (texte)
                     string classeStr = csv.GetField<string>(0);
 
                     TypeBle classe = classeStr switch
@@ -36,7 +35,6 @@ namespace SeedsClassificationApp.Data
                         _ => throw new Exception($"Classe inconnue : {classeStr}")
                     };
 
-                    // Lire les 7 caractéristiques numériques
                     double area = csv.GetField<double>(1);
                     double perimeter = csv.GetField<double>(2);
                     double compactness = csv.GetField<double>(3);

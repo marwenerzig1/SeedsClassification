@@ -12,7 +12,6 @@ namespace SeedsClassificationApp
             Console.WriteLine("=== Seeds Classification - KNN ===");
             Console.WriteLine();
 
-            // Charger les données
             CsvLoader loader = new CsvLoader();
             var trainingData = loader.Charger("seeds_dataset_training.csv");
             var testData = loader.Charger("seeds_dataset_test.csv");
@@ -21,11 +20,9 @@ namespace SeedsClassificationApp
             Console.WriteLine($"Test size     : {testData.Count}");
             Console.WriteLine();
 
-            // Choix de k
             Console.Write("Entrez la valeur de k : ");
             int k = int.Parse(Console.ReadLine());
 
-            // Choix distance
             Console.WriteLine();
             Console.WriteLine("Choisissez la distance :");
             Console.WriteLine("1 - Euclidienne");
@@ -42,13 +39,13 @@ namespace SeedsClassificationApp
 
             Console.WriteLine();
 
-            // Construction KDTree
+            // Construction KDTree   (ADD BY MARWEN)
             KDTree tree = new KDTree();
             tree.Construire(trainingData);
 
             IKNNClassifier classifier = new KNNClassifier(tree, k, distance);
 
-            // Évaluation
+            
             EvaluationResult evaluation = new EvaluationResult();
             evaluation.Calculer(testData, classifier);
 
@@ -66,7 +63,7 @@ namespace SeedsClassificationApp
                 Console.WriteLine();
             }
 
-            // Sauvegarde JSON
+           
             JsonSaver saver = new JsonSaver();
 
             GlobalResult global = new GlobalResult

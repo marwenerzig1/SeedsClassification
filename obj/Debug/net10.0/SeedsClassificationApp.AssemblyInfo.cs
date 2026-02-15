@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SeedsClassificationApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3afb9805d1889786b5fe01f091966cb3dc094971")]
 [assembly: System.Reflection.AssemblyProductAttribute("SeedsClassificationApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SeedsClassificationApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

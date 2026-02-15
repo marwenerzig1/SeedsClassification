@@ -18,3 +18,4 @@ C:\Users\Fatma\source\repos\SeedsClassificationSolution\SeedsClassificationApp\b
 C:\Users\Fatma\source\repos\SeedsClassificationSolution\SeedsClassificationApp\bin\Debug\net10.0\CsvHelper.dll
 C:\Users\Fatma\source\repos\SeedsClassificationSolution\SeedsClassificationApp\obj\Debug\net10.0\SeedsCla.2E5E65F6.Up2Date
 C:\Users\Fatma\source\repos\SeedsClassificationSolution\SeedsClassificationApp\bin\Debug\net10.0\Newtonsoft.Json.dll
+C:\Users\Fatma\source\repos\SeedsClassificationSolution\SeedsClassificationApp\obj\Debug\net10.0\SeedsClassificationApp.sourcelink.json
